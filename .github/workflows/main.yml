@@ -44,5 +44,5 @@ jobs:
           file: ./Dockerfile
           push: true
           tags: |
-            ghcr.io/primebank/samsu:latest
-            ghcr.io/primebank/samsu:${{github.run_number}}
+            ghcr.io/primebank-com-bd/samsu:latest
+            ghcr.io/primebank-com-bd/samsu:${{github.run_number}}
